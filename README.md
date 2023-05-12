@@ -1,19 +1,8 @@
-# template
+# mammary-analogue-secretory-carcinoma
 
 
 
-**template for pathology atlas repositories**
-
-
-
-
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-
-
-
-
-> do not forget to activate github pages for the new repository
-
+**mammary-analogue-secretory-carcinoma for pathology atlas repositories**
 
 
 
@@ -26,7 +15,7 @@ vips dzsave HE.svs HE
 
 
 
-```{r language template, echo=FALSE, include=TRUE}
+```{r language mammary-analogue-secretory-carcinoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -37,7 +26,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR
+## Tükrük bezinin meme benzeri sekretuar karsinomu
 
 ```
 
@@ -46,7 +35,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN
+##  mammary analogue secretory carcinoma of salivary gland
 
 ```
 
@@ -55,28 +44,39 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Tükrük bezinin meme benzeri sekretuar karsinomu**
+
+Tükrük bezinin sekretuar karsinomu ETV6 gen yeniden düzenlemesi ile karakterize nadir görülen primer tükürük bezi karsinomudur. İnterkalar duktus epitelinden köken alır. Aynı zamanda memenin sekretuar karsinomunun analoğudur. Major tükrük bezlerinde daha sık görülür. Bir tükrük bezi tümörüne bakarken papiller benzeri alanlar ve tiroid follükülüne benzer alanlar görüyorsak tükrük bezinin sekretuar karsinomu akla gelmelidir. Tübüler, papiller, mikrokistik ve solid büyüme paterni görülebilir. Luminal pembe (kolloid benzeri) materyal görülür. Tümör hücrelerinde belirgin santral nükleolus görülür.  İmmünohistokimyasal olarak S100, mamaglobulin ve GCDFP-15 pozitiftir. Tükrük bezinin sekretuar karsinomunda bazı alanlar asinik hücreli karsinoma benzeyebilir. Tükrük bezinin sekretuar karsinomu, asinik hücreli karsinoma göre metastaz potansiyeli daha yüksektir.  
+*Dr. Zeynep Bayramoğlu*
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
 
 ```
 
 ```{comment} 
 asis, echo = (language == "TR")
 
-**templateTR**
+**Tükrük bezinin meme benzeri sekretuar karsinomu**
 
 
-[https://images.patolojiatlasi.com/template/HE_annotated.html](https://images.patolojiatlasi.com/template/HE_annotated.html)
+[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html)
 
 İşaretlenmiş mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -87,20 +87,20 @@ asis, echo = (language == "TR")
 
 
 
-<button id="tani-case-template-btn">Tanıyı Göster</button>
-<div id="answer-template" style="display: none;">templateTR</div>
+<button id="tani-case-mammary-analogue-secretory-carcinoma-btn">Tanıyı Göster</button>
+<div id="answer-mammary-analogue-secretory-carcinoma" style="display: none;">Tükrük bezinin meme benzeri sekretuar karsinomu</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('tani-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-mammary-analogue-secretory-carcinomaBtn = document.getElementById('tani-case-mammary-analogue-secretory-carcinoma-btn');
+  const answer-mammary-analogue-secretory-carcinoma = document.getElementById('answer-mammary-analogue-secretory-carcinoma');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Tanıyı Gizle';
+  showAnswer-mammary-analogue-secretory-carcinomaBtn.addEventListener('click', () => {
+    if (answer-mammary-analogue-secretory-carcinoma.style.display === 'none') {
+      answer-mammary-analogue-secretory-carcinoma.style.display = 'block';
+      showAnswer-mammary-analogue-secretory-carcinomaBtn.textContent = 'Tanıyı Gizle';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Tanıyı Göster';
+      answer-mammary-analogue-secretory-carcinoma.style.display = 'none';
+      showAnswer-mammary-analogue-secretory-carcinomaBtn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -117,14 +117,22 @@ asis, echo = (language == "TR")
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+** mammary analogue secretory carcinoma of salivary gland**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
+[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -132,14 +140,14 @@ See Microscopy with viewer:
 ```{comment}
 asis, echo = (language == "EN")
 
-**templateEN**
+** mammary analogue secretory carcinoma of salivary gland**
 
 
-[https://images.patolojiatlasi.com/template/HE_annotated.html](https://images.patolojiatlasi.com/template/HE_annotated.html)
+[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html)
 
 See Annotated Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 
 
@@ -148,20 +156,20 @@ See Annotated Microscopy with viewer:
 ```{comment}
 asis, echo = (language == "EN")
 
-<button id="dx-case-template-btn">Show the Diagnosis</button>
-<div id="answer-template" style="display: none;">templateEN</div>
+<button id="dx-case-mammary-analogue-secretory-carcinoma-btn">Show the Diagnosis</button>
+<div id="answer-mammary-analogue-secretory-carcinoma" style="display: none;"> mammary analogue secretory carcinoma of salivary gland</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('dx-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-mammary-analogue-secretory-carcinomaBtn = document.getElementById('dx-case-mammary-analogue-secretory-carcinoma-btn');
+  const answer-mammary-analogue-secretory-carcinoma = document.getElementById('answer-mammary-analogue-secretory-carcinoma');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Hide the Diagnosis';
+  showAnswer-mammary-analogue-secretory-carcinomaBtn.addEventListener('click', () => {
+    if (answer-mammary-analogue-secretory-carcinoma.style.display === 'none') {
+      answer-mammary-analogue-secretory-carcinoma.style.display = 'block';
+      showAnswer-mammary-analogue-secretory-carcinomaBtn.textContent = 'Hide the Diagnosis';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Show the Diagnosis';
+      answer-mammary-analogue-secretory-carcinoma.style.display = 'none';
+      showAnswer-mammary-analogue-secretory-carcinomaBtn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
