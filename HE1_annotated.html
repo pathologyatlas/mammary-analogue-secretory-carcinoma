@@ -49,17 +49,17 @@
                 ServerFormat: 'Default', // optional
                 xmlns: 'http://schemas.microsoft.com/deepzoom/2009', // see .dzi file
                 Size: {
-                    Width: '33283', // see .dzi file
-                    Height: '29324' // see .dzi file
+                    Width: '56097', // see .dzi file
+                    Height: '81589' // see .dzi file
                 }
             },
 
             overlays: [{
-                id: 'example-overlay',
-                x: 0.10,
-                y: 0.60,
-                width: 0.3,
-                height: 0.25,
+                id: 'example-overlay1',
+                x: 0.555,
+                y: 0.29,
+                width: 0.07,
+                height: 0.05,
 
                 className: 'highlight'
             },
@@ -84,8 +84,8 @@
     });
 
     function bindtooltip() {
-        var tip = jQuery('#example-tip');
-        jQuery("#example-overlay").hover(function (e) {
+        var tip = jQuery('#example-tip1');
+        jQuery("#example-overlay1").hover(function (e) {
             var mousex = e.pageX + 20, //Get X coodrinates
                 mousey = e.pageY + 20, //Get Y coordinates
                 tipWidth = tip.width(), //Find width of tooltip
@@ -110,9 +110,11 @@
 
 </script>
 
-<div id="example-tip" style="display:none;width:250px;background-color:#fff;">
+<div id="example-tip1" style="display:none;width:250px;background-color:#fff;">
     <p>
-        The overlay can provide a class name and ID to bind additional events to.
+        Papiller yapılar.
+        <br>
+        Papillary structures.
     </p>
 </div>
 
