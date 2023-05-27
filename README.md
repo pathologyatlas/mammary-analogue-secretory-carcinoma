@@ -69,6 +69,15 @@ asis, echo = (language == "TR")
 
 <iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
+
+[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
+
+İşaretlenmiş mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html" style="height:400px;width:100%;" data-external="1"></iframe>
+
+
+
 ```
 
 
@@ -140,7 +149,11 @@ See Annotated Microscopy with viewer:
 
 <iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE1_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
+[https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html](https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html)
 
+See Annotated Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/mammary-analogue-secretory-carcinoma/HE2.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
